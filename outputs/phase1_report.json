@@ -1,0 +1,40 @@
+{
+  "train_shape": [
+    20000,
+    24
+  ],
+  "test_shape": [
+    5000,
+    23
+  ],
+  "missing_value_pct": {
+    "Column3": 15.7,
+    "Column4": 15.92,
+    "Column5": 21.28,
+    "Column6": 0.43,
+    "Column8": 0.43,
+    "Column9": 93.06,
+    "Column14": 46.57,
+    "Column15": 1.94
+  },
+  "class_balance": {
+    "0": 0.9057,
+    "1": 0.0943
+  },
+  "n_synthetic_generated": 40000,
+  "synthetic_risk_rate": 0.0943,
+  "top_driver_column": "Column18",
+  "top_driver_real_corr": 0.7224267684579065,
+  "n_labeled_nodes": 60000,
+  "n_test_nodes": 5000,
+  "X_all_shape": [
+    65000,
+    22
+  ],
+  "split_sizes": {
+    "train": 42000,
+    "val": 9000,
+    "holdout": 9000,
+    "test": 5000
+  }
+}
